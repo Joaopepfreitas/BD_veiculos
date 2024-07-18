@@ -63,7 +63,7 @@ int main(int argc, char** argv) {
             i++;
             arquivo >> aux;
         }
-        qtde = i; // Set qtde to the number of cars read
+        qtde = i; 
         arquivo.close();
     } else {
         cout << "Erro ao abrir o Banco de Dados." << endl;
